@@ -13,7 +13,7 @@ The script offers two configuration options;
   a. Updates the list of Tor nodes and explicitly denies access using Linux IPTABLES commands. Tor list updates with Cron, at a frequency of the user’s choice.
 2. Configuring a remote Windows Apache Server’s .htaccess file:
   a. Updates the list of Tor nodes from a Linux machine and modifies the syntax for the Apache .htaccess file
-  b. Uses FTP to transfer the list to the Windows web server where an additional script will be run (See last page)
+  b. Uses FTP to transfer the list to the Windows web server where an additional script will be run
 
 ## TorTrack
 TorTrack is an additional Bash script for tracking access attempts from Tor exit nodes. The script renews the Tor list and parses through the web server’s access log to show when and how often a Tor node attempts to access your website. This can also be run for the remote Windows machine using FTP to transfer the access log.
